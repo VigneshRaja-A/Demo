@@ -17,7 +17,7 @@ INSERT INTO Customers (customer_name,customer_phno) VALUES
 ("Ani",735808762),
 ("Dube",234587669),
 ("Vignesh",979065980),
-("Vk",77771818);
+("Ak",77771818);
 
 INSERT INTO Membership (customer_id) VALUES
 (1),
