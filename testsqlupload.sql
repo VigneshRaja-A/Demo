@@ -13,7 +13,7 @@ customer_id INT,
 FOREIGN KEY(customer_id) REFERENCES Customers(customer_id));
 
 INSERT INTO Customers (customer_name,customer_phno) VALUES 
-("Periyar",636966030),
+("Phil",636966030),
 ("Ani",735808762),
 ("Dube",234587669),
 ("Vignesh",979065980),
