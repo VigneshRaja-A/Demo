@@ -13,11 +13,11 @@ customer_id INT,
 FOREIGN KEY(customer_id) REFERENCES Customers(customer_id));
 
 INSERT INTO Customers (customer_name,customer_phno) VALUES 
-("Phil",636966030),
+("Periyar",636966030),
 ("Ani",735808762),
 ("Dube",234587669),
 ("Vignesh",979065980),
-("Ak",77771818);
+("Vk",77771818);
 
 INSERT INTO Membership (customer_id) VALUES
 (1),
@@ -44,8 +44,6 @@ where membership_status ="EXPIRED";
 
 #Totalcustomers
 select count(customer_id) as total_customers from customers;
-
-delete 
 
 #Emptying the tables
 TRUNCATE TABLE Customers;
